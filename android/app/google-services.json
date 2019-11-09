@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "837213281249",
+    "firebase_url": "https://teste-626e6.firebaseio.com",
+    "project_id": "teste-626e6",
+    "storage_bucket": "teste-626e6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:837213281249:android:d65d63d3aa5269f60a50a0",
+        "android_client_info": {
+          "package_name": "com.reactteste"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "837213281249-65b7egnit0k2degj9lr8dlk1t1m38lfd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpU_PEwrUhFXbueMTCU9fuF3adfQHoBSg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "837213281249-65b7egnit0k2degj9lr8dlk1t1m38lfd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,4 @@
+#Sat Nov 09 08:31:25 BRST 2019
+base.0=C\:\\Users\\arrud\\Desktop\\reactTeste2Backup\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex
