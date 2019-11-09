@@ -1,0 +1,2 @@
+# EquipeTuring
+Hackathon Construtech
