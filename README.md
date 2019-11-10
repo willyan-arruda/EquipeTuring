@@ -1,2 +1,3 @@
 # EquipeTuring
-<h3>Hackathon Construtech</h3>
+<h3>App Flint</h3>
+App desenvolvido em React Native para a solução das problematicas apresentados <br>
