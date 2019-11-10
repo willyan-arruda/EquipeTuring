@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import { View, Text, Image, Dimensions, TouchableOpacity, CheckBox } from 'react-native';
+import { View, Text, Image, Dimensions, TouchableOpacity } from 'react-native';
 import StarRating from 'react-native-star-rating';
 import { ProgressBar, Colors } from 'react-native-paper';
+import { Checkbox } from 'react-native-paper';
 
 
 class CardObra extends Component {
@@ -44,9 +45,9 @@ class CardObra extends Component {
 
           </View>
           <View style={{ width: '15%', height: '100%', backgroundColor: '', paddingLeft: 10, paddingTop: 10, paddingRight: 10, paddingBottom: 10, borderRadius: 10, alignItems: 'center', justifyContent: 'center' }}>
-            <CheckBox
+            <Checkbox
               title='Click Here'
-              checked={this.props.checked}
+              status={this.props.status}
 
             />
 

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\arrud\\Desktop\\reactTeste2Backup\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ko\\values-ko.xml",
+            "outputFile": "C:\\Users\\arrud\\Desktop\\Turing\\EquipeTuring\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ko\\values-ko.xml",
             "map": [
                 {
                     "source": "C:\\Users\\arrud\\.gradle\\caches\\transforms-2\\files-2.1\\afa8caea8c67f159203d59ffba53e74c\\res\\values-ko\\values-ko.xml",

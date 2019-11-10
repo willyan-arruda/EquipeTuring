@@ -2,10 +2,15 @@ import React, { Component } from 'react';
 import firebase from 'react-native-firebase';
 import { TextInput, Platform, StyleSheet, Text, View, TouchableOpacity, ImageBackground, Image, ScrollView, Dimensions, Modal, } from 'react-native';
 import { SearchBar, Avatar, } from 'react-native-elements';
-import CardOBra from './components/Explore/CardObra'
+import CardOBra from '../components/Explore/CardObra'
 import ActionButton from 'react-native-action-button';
 import Icon from 'react-native-vector-icons/Ionicons';
-import ModalObra from './components/Explore/ModalObra';
+import ModalObra from '../components/Explore/ModalObra';
+import {createStackNavigator} from 'react-navigation';
+
+
+
+
 
 export default class principal extends Component {
 
@@ -54,19 +59,15 @@ export default class principal extends Component {
 
   }
 
-
-
-
   render() {
     return (
-
       <View style={{ flex: 1, flexDirection: 'column', backgroundColor: '', backgroundColor: '' }}>
         <View style={{ width: '100%', height: '9%', backgroundColor: '', flexDirection: 'row' }}>
           <View style={{ width: '12%', height: '100%', backgroundColor: '', flexDirection: 'column' }}>
             <Avatar
               rounded
               icon={{ name: 'menu' }}
-              onPress={() => console.log("funciona")}
+              onPress={() => navigation.navigate('relatorio')}
               activeOpacity={0.7}
               containerStyle={{ alignSelf: 'center', marginTop: 11, marginLeft: 4 }}
             />
@@ -160,8 +161,6 @@ export default class principal extends Component {
 
     );
   }
-
-
 }
 
 

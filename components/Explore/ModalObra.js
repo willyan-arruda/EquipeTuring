@@ -15,6 +15,7 @@ import ActionButton from 'react-native-action-button';
 import Icon from 'react-native-vector-icons/Ionicons';
 import CardCheck from './CardCheck';
 import {Calendar, CalendarList, Agenda} from 'react-native-calendars';
+import {createStackNavigator} from 'react-navigation';
 
 
 const percentage = 66;
@@ -184,7 +185,7 @@ class ModalObra extends Component {
 
           </View>
           <ActionButton buttonColor="rgba(231,76,60,1)">
-            <ActionButton.Item buttonColor='#9b59b6' title="Nova Tarefa" onPress={() => this.mudaStatusRelatorio()}>
+            <ActionButton.Item buttonColor='#9b59b6' title="Nova Tarefa" onPress={() => {}}>
               <Icon name="md-create" style={{ fontSize: 25, color: 'white', alignItems: 'center', justifyContent: 'center', }} />
             </ActionButton.Item>
             <ActionButton.Item buttonColor='#3498db' title="Relatorio" onPress={() => { }}>

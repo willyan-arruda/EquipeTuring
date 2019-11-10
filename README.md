@@ -1,2 +1,2 @@
-# EquipeTuring
+# EquipeTuringg
 Hackathon Construtech
