@@ -1,2 +1,2 @@
 # EquipeTuring
-<h2>Hackathon Construtech</h2>
+<h3>Hackathon Construtech</h3>
